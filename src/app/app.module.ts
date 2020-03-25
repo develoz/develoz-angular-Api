@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { InfoComponent } from './conponents/info/info.component';
 import { HomeComponent } from './conponents/home/home.component';
 import { ContactComponent } from './conponents/contact/contact.component';
+import { PruebaComponent } from './conponents/prueba/prueba.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContactComponent } from './conponents/contact/contact.component';
     NavbarComponent,
     InfoComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    PruebaComponent
   ],
   imports: [
     BrowserModule,
